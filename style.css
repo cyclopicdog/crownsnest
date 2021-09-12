@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "From the Woods";
+  src: url("graphics/FromtheWoods-Regular.woff2") format("woff2");
+  font-weight: lighter;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+  background: white url("graphics/bg.jpg") center/cover no-repeat fixed;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 300px;
+  font-weight: bold;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.header__title {
+  font-family: "From the Woods", sans-serif;
+  font-size: 4em;
+  letter-spacing: 0.05em;
+}
+
+.header__content {
+  width: 95%;
+}
+
+.main-section {
+  width: 90%;
+  height: 900px;
+}
+
+.section {
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+  background-color: #4f6a13;
+  border-radius: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.section-logo {
+  padding-top: 35px;
+}
+
+.section-title {
+  margin: 10px 0 7px 0;
+}
+
+.section-blurb {
+  width: 280px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-nature {
+  position: relative;
+  top: 30px;
+  left: 15%;
+}
+
+.section-peace {
+  position: relative;
+  top: -110px;
+  left: 50%;
+  z-index: 2;
+}
+
+.section-community {
+  position: relative;
+  top: -250px;
+  left: 15%;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #2d4823;
+}
+
+footer .footer-section-blurb {
+  width: 90%;
+}
